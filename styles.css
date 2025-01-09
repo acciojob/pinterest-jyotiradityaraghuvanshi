@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.hero{
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+}
+.hero img{
+	width: 50%;
+	height: 90%;
+	object-fit: cover;
+}
+.text button{
+	background-color: red;
+	padding: 20px;
+	color: white;
+	border-radius: 10px;
+	transition: .4s;
+}
+.text button:hover{
+	background-color: pink;
+}
